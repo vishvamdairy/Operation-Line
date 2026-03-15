@@ -1,0 +1,24 @@
+*{box-sizing:border-box} body{margin:0;font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;background:#f7f7fa;color:#222}
+.header{display:flex;gap:12px;align-items:center;justify-content:space-between;padding:10px 14px;background:#0f172a;color:#fff;position:sticky;top:0;z-index:2}
+.header .title{font-weight:700}
+.toolbar{display:flex;gap:8px;flex-wrap:wrap}
+.toolbar button{background:#2563eb;color:#fff;border:0;padding:8px 10px;border-radius:6px;cursor:pointer}
+.toolbar button.secondary{background:#334155}
+.toolbar input, .toolbar select{padding:6px 8px;border:1px solid #cbd5e1;border-radius:6px}
+.container{display:grid;grid-template-columns:260px 1fr 280px;height:calc(100vh - 58px)}
+.sidebar{border-right:1px solid #e2e8f0;padding:10px;overflow:auto;background:#fff}
+.sidebar h3{margin:8px 0 6px}
+.node-palette{display:grid;gap:8px}
+.node-btn{padding:8px;border:1px dashed #94a3b8;border-radius:8px;background:#f8fafc;cursor:grab}
+.canvas{position:relative}
+#flow{width:100%;height:100%}
+.prop-panel{border-left:1px solid #e2e8f0;padding:10px;overflow:auto;background:#fff}
+.prop-panel h3{margin:8px 0}
+.field{display:flex;flex-direction:column;margin-bottom:8px}
+.field label{font-size:12px;color:#475569;margin-bottom:4px}
+.field input{padding:6px 8px;border:1px solid #cbd5e1;border-radius:6px}
+.note{font-size:12px;color:#475569}
+.badge{display:inline-block;padding:2px 6px;border-radius:999px;background:#e2e8f0;color:#0f172a;font-size:11px;margin-left:6px}
+.legend{padding:6px 8px;border:1px solid #e2e8f0;border-radius:8px;background:#fafafa;font-size:12px}
+.valid{color:#16a34a}
+.invalid{color:#dc2626}
